@@ -1,7 +1,7 @@
 {
   "name": "jojo-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple tool for easily creating project",
   "main": "index.js",
   "bin": {
     "jojo": "./bin/jojo.js"
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "SevenChan07",
   "license": "ISC",
   "dependencies": {
     "caporal": "^1.2.0",
