@@ -1,0 +1,22 @@
+{
+  "name": "jojo-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "jojo": "./bin/jojo.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "caporal": "^1.2.0",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^6.5.0",
+    "ora": "^3.4.0",
+    "rimraf": "^2.6.3",
+    "shelljs": "^0.8.3"
+  }
+}
