@@ -1,6 +1,6 @@
 {
-  "name": "jojo-cli",
-  "version": "1.0.0",
+  "name": "@jojos/jojo-cli",
+  "version": "1.0.1",
   "description": "A simple tool for easily creating project",
   "main": "index.js",
   "bin": {
@@ -11,6 +11,7 @@
   },
   "author": "SevenChan07",
   "license": "ISC",
+  "repository": "SevenChan07/jojo-cli",
   "dependencies": {
     "caporal": "^1.2.0",
     "fs-extra": "^8.1.0",
