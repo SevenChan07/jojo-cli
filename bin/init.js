@@ -8,8 +8,11 @@ const {GIT_URL} = require('./const.js')
 const choices = [
   {
     name: 'd3-playground',
-    value: 'd3-playground'
-  }
+    value: 'd3-playground',
+  }, {
+    name: 'react-component',
+    value: 'react-component',
+  },
 ]
 
 
@@ -51,10 +54,8 @@ module.exports = (args, options) => {
     message: 'Select Project Type:',
     choices,
   }).then(answer => {
-    if (answer.projectType === 'd3-playground') {
       checkDirectory(process.cwd(), () => {
-        download(GIT_URL[answer.projectType])
+        download(GIT_URL[answer.projectType], answer.projectType)
       })
-    }
   })
 }
