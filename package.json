@@ -10,7 +10,7 @@
     "changelog": "git-changelog -t false"
   },
   "author": "SevenChan07",
-  "license": "ISC",
+  "license": "MIT",
   "repository": "SevenChan07/jojo-cli",
   "dependencies": {
     "caporal": "^1.2.0",
