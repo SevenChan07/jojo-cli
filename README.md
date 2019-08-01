@@ -1,4 +1,5 @@
 ## jojo-cli
+![npm](https://img.shields.io/npm/v/@jojos/jojo-cli)
 
 A simple tool for easily creating project.
 
